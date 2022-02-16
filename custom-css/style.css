@@ -2,14 +2,30 @@ body{
     max-width: 80%;
     margin: 0 auto;
 }
-
 h1{
     font-size: 50px;
     text-align: center;
+    color: rgb(6, 139, 151);
 }
 .image{
     text-align: center;
 }
-.image img{
+/* .image img{
     width: 50%;
+} */
+.ledger-section{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.144);
+}
+.button{
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(0, 81, 255, 0.767);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 35px;
+}
+.button:hover{
+    background-color: rgba(0, 0, 255, 0.883);
 }
