@@ -10,13 +10,13 @@ h1{
 .image{
     text-align: center;
 }
-/* .image img{
-    width: 50%;
-} */
+/* ledger section style  */
 .ledger-section{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.144);
 }
+
+/* button style  */
 .button{
     border: 0;
     border-radius: 5px;
