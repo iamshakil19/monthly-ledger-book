@@ -25,6 +25,15 @@ document.getElementById('save_button').addEventListener('click', function(){
     }
 })
 
+document.getElementById('save-parcentage').addEventListener('keyup', function(event){
+    const button = document.getElementById('save_button');
+    if(event.target.value > 0){
+        button.removeAttribute('disabled');
+    }
+    else{
+        button.setAttribute('disabled', true)
+    }
+})
 
 // function start
 
