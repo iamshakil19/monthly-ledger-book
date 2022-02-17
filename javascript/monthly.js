@@ -41,7 +41,7 @@ function getInputValue(inputId){
     const input = document.getElementById(inputId);
     const inputValue = parseInt(input.value);
     if(inputValue <= 0){
-       alert("Please enter a valid number");
+      return alert("Please enter a valid number");
     }
     else{
         return inputValue;
